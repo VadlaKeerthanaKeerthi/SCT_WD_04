@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🌟 To-Do Web App | SkillCraft</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="glass-card">
+    <h1>✨ My To-Do Universe</h1>
+    <form id="task-form">
+      <input type="text" id="task-input" placeholder="🔮 Enter your task..." required />
+      <input type="datetime-local" id="task-date" required />
+      <select id="emoji-select">
+        <option value="🧠">🧠 Brainstorm</option>
+        <option value="📚">📚 Study</option>
+        <option value="💼">💼 Work</option>
+        <option value="🏃">🏃 Workout</option>
+        <option value="🎨">🎨 Creative</option>
+        <option value="🛒">🛒 Shopping</option>
+      </select>
+      <button type="submit">🚀 Add Task</button>
+    </form>
+    <ul id="task-list"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
